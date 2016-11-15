@@ -19,10 +19,10 @@ Jika ingin mengganti data yang digunakan silahkan mengganti nama data yang digun
 Inisialisasi pheromone matrix dilakukan dengan menggunakan rumus: 1/(n*bks) dengan *bks* yang dimaksud adalah *best known solution* .
 Constant yang digunakan dalam algoritma ini adalah:
 ```
-alpha = 0.1;
+alpha = 1;
 beta = 2;
-rho = 0.1;
-Q = 1;
+rho = 0.9;
+Q = 100;
 ```
 
 Jumlah semut yang digunakan adalah sebanyak jumlah kota dan iterasi yang dilakukan adalah sebanyak 1000.
@@ -36,17 +36,3 @@ Berikut ini adalah penjelasan mengenai fungsi-fungsi yang ada:
 %p = pheromone matrix
 %unVisitedCity = kota-kota yang belum dikunjungi
 ```
-
-
- 
-
-
-
-
-## Result
-
-
-
-![alt text](https://lh3.googleusercontent.com/q1C_PmuDNE_zrMm5VLqoEAD8sEn6lGiHg6-xtla9iXETkPb58chDmmuuz3m8eEVAlNPoP0TvpIBQV3Q=w1366-h643 "Boxplot")
-
-## Conclusion
